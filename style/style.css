@@ -82,7 +82,9 @@ body {
           padding: 0px 5px; }
 
 @media screen and (max-width: 767px) {
-  .subContainer #skills .backend, .subContainer #skills .frontend {
-    width: 100% !important; } }
+  .subContainer {
+    width: 98%; }
+    .subContainer #skills .backend, .subContainer #skills .frontend {
+      width: 100% !important; } }
 
 /*# sourceMappingURL=style.css.map */
