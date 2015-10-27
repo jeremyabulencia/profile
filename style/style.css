@@ -83,7 +83,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .subContainer {
-    width: 98%; }
+    width: 98% !important; }
     .subContainer #skills .backend, .subContainer #skills .frontend {
       width: 100% !important; } }
 
