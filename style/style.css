@@ -53,12 +53,32 @@ body {
         text-transform: UPPERCASE;
         letter-spacing: 5px; }
       .container .subContainer .category .content {
+        display: block;
         padding-top: 10px;
         width: 100%;
         text-indent: 20px;
         line-height: 30px; }
-      .container .subContainer .category #skills .backend, .container .subContainer .category #skills .frontend {
-        width: 50%;
-        float: left; }
+    .container .subContainer #skills .backend, .container .subContainer #skills .frontend {
+      width: 50%;
+      float: left; }
+    .container .subContainer #skills .cTitle {
+      width: 100%;
+      margin: auto;
+      text-align: center; }
+    .container .subContainer #skills .cContent {
+      width: 80%;
+      display: block; }
+      .container .subContainer #skills .cContent ul {
+        display: block;
+        list-style: none;
+        margin: 0px;
+        padding: 0px; }
+        .container .subContainer #skills .cContent ul li {
+          display: inline-block;
+          border: 1px solid #718DA5;
+          background-color: #496C89;
+          color: #FFF;
+          text-indent: 0px;
+          padding: 0px 5px; }
 
 /*# sourceMappingURL=style.css.map */
