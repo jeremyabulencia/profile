@@ -105,6 +105,7 @@ body{
 						color:#FFF;
 						text-indent:0px;
 						padding:0px 5px;
+						font-size:1vw;
 					}
 				}
 			}
@@ -118,6 +119,14 @@ body{
 		#skills{
 			.backend,.frontend{
 				width:100% !important;
+			}
+
+			.cContent{
+				ul{
+					li{
+						font-size:2vw !important;
+					}
+				}
 			}
 		}
 
