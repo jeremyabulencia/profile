@@ -73,6 +73,13 @@ body{
 				text-indent:20px;
 				line-height:30px;
 			}
+
+			#skills{
+				.backend,.frontend{
+					width:50%;
+					float:left;
+				}
+			}
 		}
 	}
 }
