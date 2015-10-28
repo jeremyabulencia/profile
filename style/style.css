@@ -28,7 +28,7 @@ body {
     top: 0px;
     z-index: 3; }
   .container .subContainer {
-    width: 70%;
+    width: 60%;
     margin: auto;
     padding-top: 20px; }
     .container .subContainer .Name {
@@ -59,15 +59,16 @@ body {
         text-indent: 20px;
         line-height: 30px; }
     .container .subContainer #skills .backend, .container .subContainer #skills .frontend {
-      width: 50%;
-      float: left; }
+      width: 100%; }
     .container .subContainer #skills .cTitle {
       width: 100%;
       margin: auto;
       text-align: center; }
     .container .subContainer #skills .cContent {
-      width: 80%;
-      display: block; }
+      width: 60%;
+      display: block;
+      margin: auto;
+      text-align: center; }
       .container .subContainer #skills .cContent ul {
         display: block;
         list-style: none;
@@ -80,14 +81,44 @@ body {
           color: #FFF;
           text-indent: 0px;
           padding: 0px 5px;
-          font-size: 1vw; }
+          font-size: 1vw;
+          margin: 3px 0px; }
+    .container .subContainer #career .subContent {
+      background-color: #F0F0F0;
+      margin: auto;
+      text-indent: 0px;
+      line-height: 16px; }
+      .container .subContainer #career .subContent .innerContent {
+        width: 95%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px; }
+      .container .subContainer #career .subContent .companyName .name {
+        font-size: 1vw;
+        font-weight: bolder; }
+      .container .subContainer #career .subContent .companyName .date {
+        color: #888; }
+      .container .subContainer #career .subContent .companyDescription {
+        margin-top: 5px;
+        padding-left: 10px;
+        text-indent: 20px; }
 
 @media screen and (max-width: 767px) {
   .subContainer {
     width: 98% !important; }
     .subContainer #skills .backend, .subContainer #skills .frontend {
       width: 100% !important; }
-    .subContainer #skills .cContent ul li {
-      font-size: 2vw !important; } }
+    .subContainer #skills .cContent {
+      width: 98% !important; }
+      .subContainer #skills .cContent ul li {
+        font-size: 3vw !important; }
+    .subContainer #career .subContent {
+      width: 98% !important; }
+      .subContainer #career .subContent .companyName .name {
+        font-size: 4vw !important; }
+      .subContainer #career .subContent .companyName .date {
+        font-size: 3vw !important; }
+      .subContainer #career .subContent .companyDescription {
+        font-size: 3vw !important; } }
 
 /*# sourceMappingURL=style.css.map */
