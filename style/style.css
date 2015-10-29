@@ -1,124 +1,183 @@
+/* line 6, style.scss */
 body {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  border: 1px solid black; }
+  border: 1px solid black;
+}
 
+/* line 12, style.scss */
 .banner {
   width: 100%;
   height: 200px;
   background-color: black;
   position: absolute;
   top: 0px;
-  z-index: -1; }
+  z-index: -1;
+}
 
+/* line 20, style.scss */
 .container {
   width: 100%;
   height: 1000px;
   position: relative;
   top: 198px;
   z-index: 1;
-  background-color: #FFF; }
-  .container .accentBar {
-    background-color: #496C89;
-    border: 1px solid #718DA5;
-    height: 1px;
-    width: 0%;
-    position: absolute;
-    top: 0px;
-    z-index: 3; }
-  .container .subContainer {
-    width: 60%;
-    margin: auto;
-    padding-top: 20px; }
-    .container .subContainer .Name {
-      width: 100%;
-      text-align: center;
-      text-transform: UPPERCASE; }
-      .container .subContainer .Name .profileName {
-        font-size: 14pt; }
-      .container .subContainer .Name .profileTitle {
-        font-size: 12pt; }
-    .container .subContainer .category {
-      width: 100%; }
-      .container .subContainer .category .pad {
-        width: 98%;
-        margin: 5px auto; }
-      .container .subContainer .category .title {
-        width: 100%;
-        border-bottom: 2px solid #718DA5;
-        color: #496C89;
-        text-indent: 10px;
-        line-height: 30px;
-        text-transform: UPPERCASE;
-        letter-spacing: 5px; }
-      .container .subContainer .category .content {
-        display: block;
-        padding-top: 10px;
-        width: 100%;
-        text-indent: 20px;
-        line-height: 30px; }
-    .container .subContainer #skills .backend, .container .subContainer #skills .frontend {
-      width: 100%; }
-    .container .subContainer #skills .cTitle {
-      width: 100%;
-      margin: auto;
-      text-align: center; }
-    .container .subContainer #skills .cContent {
-      width: 60%;
-      display: block;
-      margin: auto;
-      text-align: center; }
-      .container .subContainer #skills .cContent ul {
-        display: block;
-        list-style: none;
-        margin: 0px;
-        padding: 0px; }
-        .container .subContainer #skills .cContent ul li {
-          display: inline-block;
-          border: 1px solid #718DA5;
-          background-color: #496C89;
-          color: #FFF;
-          text-indent: 0px;
-          padding: 0px 5px;
-          font-size: 1vw;
-          margin: 3px 0px; }
-    .container .subContainer #career .subContent {
-      background-color: #F0F0F0;
-      margin: auto;
-      text-indent: 0px;
-      line-height: 16px; }
-      .container .subContainer #career .subContent .innerContent {
-        width: 95%;
-        margin: auto;
-        padding-top: 10px;
-        padding-bottom: 10px; }
-      .container .subContainer #career .subContent .companyName .name {
-        font-size: 1vw;
-        font-weight: bolder; }
-      .container .subContainer #career .subContent .companyName .date {
-        color: #888; }
-      .container .subContainer #career .subContent .companyDescription {
-        margin-top: 5px;
-        padding-left: 10px;
-        text-indent: 20px; }
+  background-color: #FFF;
+}
+/* line 28, style.scss */
+.container .accentBar {
+  background-color: #496c89;
+  border: 1px solid #718da5;
+  height: 1px;
+  width: 0%;
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+}
+/* line 38, style.scss */
+.container .subContainer {
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+}
+/* line 43, style.scss */
+.container .subContainer .Name {
+  width: 100%;
+  text-align: center;
+  text-transform: UPPERCASE;
+}
+/* line 48, style.scss */
+.container .subContainer .Name .profileName {
+  font-size: 14pt;
+}
+/* line 51, style.scss */
+.container .subContainer .Name .profileTitle {
+  font-size: 12pt;
+}
+/* line 56, style.scss */
+.container .subContainer .category {
+  width: 100%;
+}
+/* line 59, style.scss */
+.container .subContainer .category .pad {
+  width: 98%;
+  margin: 5px auto;
+}
+/* line 63, style.scss */
+.container .subContainer .category .title {
+  width: 100%;
+  border-bottom: 2px solid #718da5;
+  color: #496c89;
+  text-indent: 10px;
+  line-height: 30px;
+  text-transform: UPPERCASE;
+  letter-spacing: 5px;
+}
+/* line 72, style.scss */
+.container .subContainer .category .content {
+  display: block;
+  padding-top: 10px;
+  width: 100%;
+  text-indent: 20px;
+  line-height: 30px;
+}
+/* line 83, style.scss */
+.container .subContainer #skills .backend, .container .subContainer #skills .frontend {
+  width: 100%;
+}
+/* line 87, style.scss */
+.container .subContainer #skills .cTitle {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+/* line 92, style.scss */
+.container .subContainer #skills .cContent {
+  width: 60%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+/* line 98, style.scss */
+.container .subContainer #skills .cContent ul {
+  display: block;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 104, style.scss */
+.container .subContainer #skills .cContent ul li {
+  display: inline-block;
+  border: 1px solid #718da5;
+  background-color: #496c89;
+  color: #FFF;
+  text-indent: 0px;
+  padding: 0px 5px;
+  font-size: 1vw;
+  margin: 3px 0px;
+}
+/* line 118, style.scss */
+.container .subContainer #career .subContent {
+  background-color: #F0F0F0;
+  margin: auto;
+  text-indent: 0px;
+  line-height: 16px;
+}
+/* line 124, style.scss */
+.container .subContainer #career .subContent .innerContent {
+  width: 95%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 132, style.scss */
+.container .subContainer #career .subContent .companyName .name {
+  font-size: 1vw;
+  font-weight: bolder;
+}
+/* line 136, style.scss */
+.container .subContainer #career .subContent .companyName .date {
+  color: #888;
+}
+/* line 140, style.scss */
+.container .subContainer #career .subContent .companyDescription {
+  margin-top: 5px;
+  padding-left: 10px;
+  text-indent: 20px;
+}
 
 @media screen and (max-width: 767px) {
+  /* line 150, style.scss */
   .subContainer {
-    width: 98% !important; }
-    .subContainer #skills .backend, .subContainer #skills .frontend {
-      width: 100% !important; }
-    .subContainer #skills .cContent {
-      width: 98% !important; }
-      .subContainer #skills .cContent ul li {
-        font-size: 3vw !important; }
-    .subContainer #career .subContent {
-      width: 98% !important; }
-      .subContainer #career .subContent .companyName .name {
-        font-size: 4vw !important; }
-      .subContainer #career .subContent .companyName .date {
-        font-size: 3vw !important; }
-      .subContainer #career .subContent .companyDescription {
-        font-size: 3vw !important; } }
-
-/*# sourceMappingURL=style.css.map */
+    width: 98% !important;
+  }
+  /* line 154, style.scss */
+  .subContainer #skills .backend, .subContainer #skills .frontend {
+    width: 100% !important;
+  }
+  /* line 158, style.scss */
+  .subContainer #skills .cContent {
+    width: 98% !important;
+  }
+  /* line 162, style.scss */
+  .subContainer #skills .cContent ul li {
+    font-size: 3vw !important;
+  }
+  /* line 169, style.scss */
+  .subContainer #career .subContent {
+    width: 98% !important;
+  }
+  /* line 173, style.scss */
+  .subContainer #career .subContent .companyName .name {
+    font-size: 4vw !important;
+  }
+  /* line 176, style.scss */
+  .subContainer #career .subContent .companyName .date {
+    font-size: 3vw !important;
+  }
+  /* line 180, style.scss */
+  .subContainer #career .subContent .companyDescription {
+    font-size: 3vw !important;
+  }
+}
