@@ -10,9 +10,9 @@ body{
 	border:1px solid black;
 }
 .banner{
+	background-image:url('../images/backsting.jpg');
 	width:100%;
 	height:200px;
-	background-color:black;
 	position:absolute;
 	top:0px;
 	z-index:-1;
@@ -141,6 +141,19 @@ body{
 					margin-top:5px;
 					padding-left:10px;
 					text-indent:20px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width:1200px){
+	.subContainer{
+		#skills{
+			.cContent{
+				ul{
+					li{
+						font-size:2vw !important;
+					}
 				}
 			}
 		}
