@@ -8,9 +8,9 @@ body {
 
 /* line 12, style.scss */
 .banner {
+  background-image: url("../images/backsting.jpg");
   width: 100%;
   height: 200px;
-  background-color: black;
   position: absolute;
   top: 0px;
   z-index: -1;
@@ -147,36 +147,42 @@ body {
   text-indent: 20px;
 }
 
+@media screen and (max-width: 1200px) {
+  /* line 154, style.scss */
+  .subContainer #skills .cContent ul li {
+    font-size: 2vw !important;
+  }
+}
 @media screen and (max-width: 767px) {
-  /* line 150, style.scss */
+  /* line 163, style.scss */
   .subContainer {
     width: 98% !important;
   }
-  /* line 154, style.scss */
+  /* line 167, style.scss */
   .subContainer #skills .backend, .subContainer #skills .frontend {
     width: 100% !important;
   }
-  /* line 158, style.scss */
+  /* line 171, style.scss */
   .subContainer #skills .cContent {
     width: 98% !important;
   }
-  /* line 162, style.scss */
+  /* line 175, style.scss */
   .subContainer #skills .cContent ul li {
     font-size: 3vw !important;
   }
-  /* line 169, style.scss */
+  /* line 182, style.scss */
   .subContainer #career .subContent {
     width: 98% !important;
   }
-  /* line 173, style.scss */
+  /* line 186, style.scss */
   .subContainer #career .subContent .companyName .name {
     font-size: 4vw !important;
   }
-  /* line 176, style.scss */
+  /* line 189, style.scss */
   .subContainer #career .subContent .companyName .date {
     font-size: 3vw !important;
   }
-  /* line 180, style.scss */
+  /* line 193, style.scss */
   .subContainer #career .subContent .companyDescription {
     font-size: 3vw !important;
   }
