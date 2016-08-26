@@ -25,7 +25,6 @@ body{
 		}
 		#Right{
 			width:64%;
-			border:1px solid black;
 			float:right;
 			display:inline-block;
 		}
@@ -44,7 +43,21 @@ body{
 	}
 	#footer{
 		margin-top:10px;
-		border:1px solid black;
+		padding:3px 0px 3px 0px;
+		background-color:rgba(0,0,0,0.8);
 		text-align:center;
+		color:#F0F0F0;
+	}
+
+	@media screen and(max-width: 640px){
+		#mainContent{
+			width:100% !important;
+		}
+		.subContent, #footer{
+			width:98% !important;
+		}
+		#Right{
+			float:none !important;
+		}
 	}
 }
