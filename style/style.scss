@@ -1,6 +1,57 @@
 body{
 	padding:0px;
 	margin:0px;
+	$percent_barcolor:#2ebd59;
+	$percent_ebarcolor:#303030;
+	$percent_fontcolor:#2ebd59;
+	$percent_backcolor:#303030;
+
+	.hide{
+		display:none;
+	}
+	
+	.fa-steam-square{
+		color:#303030;
+	}
+	.fa-facebook-square{
+		color:#3b5998;
+	}
+	.instagram-square{
+		/*color:;*/
+	}
+	.overR50{
+		font-size: 50px !important;
+		margin:3px 5px;
+		background-color:$percent_ebarcolor;
+		>span{
+			color:$percent_fontcolor;
+			&:hover{
+				color:$percent_barcolor;
+			}
+		}
+		.slice{
+			.bar,.fill{
+				border-color:$percent_barcolor;
+			}
+		}
+		&:after{
+			background-color:$percent_backcolor;
+		}
+	}
+
+	ul{
+		list-style: none;
+		margin:0px;
+		padding:0px;
+		li{
+			display:inline-block;
+			margin:0px;
+			padding:0px;
+			a{
+				color:black;
+			}
+		}
+	}
 	#mainContent{
 		width:80%;
 		margin:auto;
@@ -24,7 +75,7 @@ body{
 			display:inline-block;
 		}
 		#Right{
-			width:64%;
+			width:64%;	
 			float:right;
 			display:inline-block;
 		}
@@ -39,14 +90,45 @@ body{
 				color:#F0F0F0;
 				background-color:rgba(0,0,0,0.8);
 			}
+
+			>.subPanel{
+				height:100%;
+				width:100%;	
+			}
+
+			&:hover{
+				#profileInfo{
+					display:block !important;
+				}
+				.subPanel{
+					background-color:rgba(0,0,0,0.5);
+				}
+			}
 		}
-	}
-	#footer{
-		margin-top:10px;
-		padding:3px 0px 3px 0px;
-		background-color:rgba(0,0,0,0.8);
-		text-align:center;
-		color:#F0F0F0;
+		#skillPanel{
+			background-color:#303030;
+			display:block;
+			>.subPanel{
+				display:inline-block;
+				>.skillContent{
+					width:95%;
+					margin:5px auto;
+				}
+			}
+		}
+		#socialPanel{
+			.fa{
+				font-size:20pt !important;
+			}
+		}
+		#footer{
+			display:block;
+			margin-top:10px;
+			padding:3px 0px 3px 0px;
+			background-color:rgba(0,0,0,0.8);
+			text-align:center;
+			color:#F0F0F0;
+		}
 	}
 
 	@media screen and(max-width: 840px){

@@ -1,6 +1,36 @@
 body {
   padding: 0px;
   margin: 0px; }
+  body .hide {
+    display: none; }
+  body .fa-steam-square {
+    color: #303030; }
+  body .fa-facebook-square {
+    color: #3b5998; }
+  body .instagram-square {
+    /*color:;*/ }
+  body .overR50 {
+    font-size: 50px !important;
+    margin: 3px 5px;
+    background-color: #303030; }
+    body .overR50 > span {
+      color: #2ebd59; }
+      body .overR50 > span:hover {
+        color: #2ebd59; }
+    body .overR50 .slice .bar, body .overR50 .slice .fill {
+      border-color: #2ebd59; }
+    body .overR50:after {
+      background-color: #303030; }
+  body ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px; }
+    body ul li {
+      display: inline-block;
+      margin: 0px;
+      padding: 0px; }
+      body ul li a {
+        color: black; }
   body #mainContent {
     width: 80%;
     margin: auto;
@@ -29,12 +59,30 @@ body {
         padding: 5px 0px;
         color: #F0F0F0;
         background-color: rgba(0, 0, 0, 0.8); }
-  body #footer {
-    margin-top: 10px;
-    padding: 3px 0px 3px 0px;
-    background-color: rgba(0, 0, 0, 0.8);
-    text-align: center;
-    color: #F0F0F0; }
+      body #mainContent #profilePanel > .subPanel {
+        height: 100%;
+        width: 100%; }
+      body #mainContent #profilePanel:hover #profileInfo {
+        display: block !important; }
+      body #mainContent #profilePanel:hover .subPanel {
+        background-color: rgba(0, 0, 0, 0.5); }
+    body #mainContent #skillPanel {
+      background-color: #303030;
+      display: block; }
+      body #mainContent #skillPanel > .subPanel {
+        display: inline-block; }
+        body #mainContent #skillPanel > .subPanel > .skillContent {
+          width: 95%;
+          margin: 5px auto; }
+    body #mainContent #socialPanel .fa {
+      font-size: 20pt !important; }
+    body #mainContent #footer {
+      display: block;
+      margin-top: 10px;
+      padding: 3px 0px 3px 0px;
+      background-color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      color: #F0F0F0; }
   @media screen and (max-width: 840px) {
     body #mainContent {
       width: 100% !important;
