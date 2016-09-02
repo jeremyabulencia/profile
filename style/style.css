@@ -7,8 +7,14 @@ body {
     color: #303030; }
   body .fa-facebook-square {
     color: #3b5998; }
-  body .instagram-square {
-    /*color:;*/ }
+  body .fa-instagram {
+    color: #f56040; }
+  body .fa-github-square {
+    color: #303030; }
+  body .fa-linkedin-square {
+    color: #0077b5; }
+  body .fa-envelope-square {
+    color: #410093; }
   body .overR50 {
     font-size: 50px !important;
     margin: 3px 5px;
