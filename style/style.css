@@ -92,8 +92,10 @@ body {
         body #mainContent #skillPanel > .subPanel > .skillContent {
           width: 95%;
           margin: 5px auto; }
-    body #mainContent #socialPanel .fa {
-      font-size: 10.0vh !important; }
+    body #mainContent #socialPanel {
+      text-align: center; }
+      body #mainContent #socialPanel .fa {
+        font-size: 10.0vh !important; }
     body #mainContent #footer {
       display: block;
       margin-top: 10px;
