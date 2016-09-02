@@ -38,7 +38,25 @@ body{
 			background-color:$percent_backcolor;
 		}
 	}
-
+	.mask{
+		position:fixed;
+		top:0px;
+		left:0px;
+		width:100%;
+		height:100%;
+		background-color:rgba(0,0,0,0.98);
+		z-index:999999;
+		.cont{
+			background-color:#FFFFFF;
+			position:relative;
+			margin:auto;
+			top:50%;
+			left:49%;
+			display:inline;
+			z-index:1000000;
+			padding:8px;
+		}
+	}
 	ul{
 		list-style: none;
 		margin:0px;
@@ -118,7 +136,7 @@ body{
 		}
 		#socialPanel{
 			.fa{
-				font-size:20pt !important;
+				font-size:10.0vh !important;
 			}
 		}
 		#footer{
