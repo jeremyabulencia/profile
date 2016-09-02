@@ -14,7 +14,7 @@ body {
     margin: 3px 5px;
     background-color: #303030; }
     body .overR50 > span {
-      color: #2ebd59; }
+      color: #FFFFFF; }
       body .overR50 > span:hover {
         color: #2ebd59; }
     body .overR50 .slice .bar, body .overR50 .slice .fill {
@@ -58,7 +58,7 @@ body {
         width: 100%;
         padding: 5px 0px;
         color: #F0F0F0;
-        background-color: rgba(0, 0, 0, 0.8); }
+        background-color: rgba(0, 0, 0, 0.6); }
       body #mainContent #profilePanel > .subPanel {
         height: 100%;
         width: 100%; }
@@ -79,7 +79,7 @@ body {
     body #mainContent #footer {
       display: block;
       margin-top: 10px;
-      padding: 3px 0px 3px 0px;
+      padding: 10px 0px;
       background-color: rgba(0, 0, 0, 0.8);
       text-align: center;
       color: #F0F0F0; }
