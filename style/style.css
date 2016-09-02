@@ -37,7 +37,8 @@ body {
       left: 49%;
       display: inline;
       z-index: 1000000;
-      padding: 8px; }
+      padding: 8px;
+      font-size: 3.0vh !important; }
   body ul {
     list-style: none;
     margin: 0px;
