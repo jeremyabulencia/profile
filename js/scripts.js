@@ -13,6 +13,9 @@ $('#socialPanel ul li').click(function(){
 $('.mask .close').click(function(){
 	$('.mask').addClass('hide');
 })
+$('#profilePanel').click(function(){
+	$('.profileInfo').addClass('block');
+})
 function maskMod(maskContWidth){
 	$('.mask .cont').css({'margin-left':'-'+maskContWidth+'px'})
 }

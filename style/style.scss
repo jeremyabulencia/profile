@@ -9,6 +9,9 @@ body{
 	.hide{
 		display:none;
 	}
+	.block{
+		display:block;
+	}
 	
 	.fa-steam-square{
 		color:#303030;
@@ -146,7 +149,7 @@ body{
 
 			&:hover{
 				#profileInfo{
-					display:block !important;
+					@extend .block;
 				}
 				.subPanel{
 					background-color:rgba(0,0,0,0.5);

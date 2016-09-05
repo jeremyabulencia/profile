@@ -3,6 +3,8 @@ body {
   margin: 0px; }
   body .hide {
     display: none; }
+  body .block, body #mainContent #profilePanel:hover #profileInfo {
+    display: block; }
   body .fa-steam-square {
     color: #303030; }
   body .fa-facebook-square {
@@ -96,8 +98,6 @@ body {
       body #mainContent #profilePanel > .subPanel {
         height: 100%;
         width: 100%; }
-      body #mainContent #profilePanel:hover #profileInfo {
-        display: block !important; }
       body #mainContent #profilePanel:hover .subPanel {
         background-color: rgba(0, 0, 0, 0.5); }
     body #mainContent #skillPanel {
