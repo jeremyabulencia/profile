@@ -14,7 +14,11 @@ $('.mask .close').click(function(){
 	$('.mask').addClass('hide');
 })
 $('#profilePanel').click(function(){
-	$('.profileInfo').addClass('block');
+	if($('#profileInfo').hasClass('block')){
+		$('#profileInfo').removeClass('block');
+	}else{
+		$('#profileInfo').addClass('block');
+	}
 })
 function maskMod(maskContWidth){
 	$('.mask .cont').css({'margin-left':'-'+maskContWidth+'px'})

@@ -3,7 +3,7 @@ body {
   margin: 0px; }
   body .hide {
     display: none; }
-  body .block, body #mainContent #profilePanel:hover #profileInfo {
+  body .block {
     display: block; }
   body .fa-steam-square {
     color: #303030; }
@@ -46,7 +46,7 @@ body {
       display: inline;
       z-index: 1000000;
       padding: 8px;
-      font-size: 3.0vw !important;
+      font-size: 5.0vh !important;
       border-radius: 5px; }
       body .mask .cont .close {
         position: absolute;
@@ -98,8 +98,6 @@ body {
       body #mainContent #profilePanel > .subPanel {
         height: 100%;
         width: 100%; }
-      body #mainContent #profilePanel:hover .subPanel {
-        background-color: rgba(0, 0, 0, 0.5); }
     body #mainContent #skillPanel {
       background-color: #303030;
       display: block; }
