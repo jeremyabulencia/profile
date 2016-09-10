@@ -1,136 +1,219 @@
+/* line 1, C:/xampp/htdocs/profile/style/style.scss */
 body {
   padding: 0px;
-  margin: 0px; }
-  body .hide {
-    display: none; }
-  body .block {
-    display: block; }
-  body .fa-steam-square {
-    color: #303030; }
-  body .fa-facebook-square {
-    color: #3b5998; }
-  body .fa-instagram {
-    color: #f56040; }
-  body .fa-github-square {
-    color: #6cc644; }
-  body .fa-linkedin-square {
-    color: #0077b5; }
-  body .fa-envelope-square {
-    color: #410093; }
-  body .overR50 {
-    font-size: 50px !important;
-    margin: 3px 5px;
-    background-color: #303030; }
-    body .overR50 > span {
-      color: #FFFFFF; }
-      body .overR50 > span:hover {
-        color: #2ebd59; }
-    body .overR50 .slice .bar, body .overR50 .slice .fill {
-      border-color: #2ebd59; }
-    body .overR50:after {
-      background-color: #303030; }
-  body .mask {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.98);
-    z-index: 999999; }
-    body .mask .cont {
-      background-color: #FFFFFF;
-      position: relative;
-      margin: auto;
-      top: 50%;
-      left: 49%;
-      display: inline;
-      z-index: 1000000;
-      padding: 8px;
-      font-size: 5.0vh !important;
-      border-radius: 5px; }
-      body .mask .cont .close {
-        position: absolute;
-        right: -18px;
-        top: -18px;
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 12pt !important; }
-        body .mask .cont .close:hover {
-          color: rgba(255, 255, 255, 0.8); }
-  body ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px; }
-    body ul li {
-      display: inline-block;
-      margin: 0px;
-      padding: 0px; }
-      body ul li a {
-        color: black; }
+  margin: 0px;
+}
+/* line 9, C:/xampp/htdocs/profile/style/style.scss */
+body .hide {
+  display: none;
+}
+/* line 12, C:/xampp/htdocs/profile/style/style.scss */
+body .block {
+  display: block;
+}
+/* line 16, C:/xampp/htdocs/profile/style/style.scss */
+body .fa-steam-square {
+  color: #303030;
+}
+/* line 19, C:/xampp/htdocs/profile/style/style.scss */
+body .fa-facebook-square {
+  color: #3b5998;
+}
+/* line 22, C:/xampp/htdocs/profile/style/style.scss */
+body .fa-instagram {
+  color: #f56040;
+}
+/* line 25, C:/xampp/htdocs/profile/style/style.scss */
+body .fa-github-square {
+  color: #6cc644;
+}
+/* line 28, C:/xampp/htdocs/profile/style/style.scss */
+body .fa-linkedin-square {
+  color: #0077b5;
+}
+/* line 31, C:/xampp/htdocs/profile/style/style.scss */
+body .fa-envelope-square {
+  color: #410093;
+}
+/* line 35, C:/xampp/htdocs/profile/style/style.scss */
+body .overR50 {
+  font-size: 50px !important;
+  margin: 3px 5px;
+  background-color: #303030;
+}
+/* line 39, C:/xampp/htdocs/profile/style/style.scss */
+body .overR50 > span {
+  color: white;
+}
+/* line 41, C:/xampp/htdocs/profile/style/style.scss */
+body .overR50 > span:hover {
+  color: #2ebd59;
+}
+/* line 46, C:/xampp/htdocs/profile/style/style.scss */
+body .overR50 .slice .bar, body .overR50 .slice .fill {
+  border-color: #2ebd59;
+}
+/* line 50, C:/xampp/htdocs/profile/style/style.scss */
+body .overR50:after {
+  background-color: #303030;
+}
+/* line 55, C:/xampp/htdocs/profile/style/style.scss */
+body .mask {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.98);
+  z-index: 999999;
+}
+/* line 63, C:/xampp/htdocs/profile/style/style.scss */
+body .mask .cont {
+  background-color: #FFFFFF;
+  position: relative;
+  margin: auto;
+  top: 50%;
+  left: 49%;
+  display: inline;
+  z-index: 1000000;
+  padding: 8px;
+  font-size: 5.0vh !important;
+  border-radius: 5px;
+}
+/* line 75, C:/xampp/htdocs/profile/style/style.scss */
+body .mask .cont .close {
+  position: absolute;
+  right: -18px;
+  top: -18px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12pt !important;
+}
+/* line 81, C:/xampp/htdocs/profile/style/style.scss */
+body .mask .cont .close:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 88, C:/xampp/htdocs/profile/style/style.scss */
+body ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 92, C:/xampp/htdocs/profile/style/style.scss */
+body ul li {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 96, C:/xampp/htdocs/profile/style/style.scss */
+body ul li a {
+  color: black;
+}
+/* line 102, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent {
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+}
+/* line 107, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent .panel {
+  /*border:1px solid #000000;*/
+  position: relative;
+}
+/* line 110, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent .panel .subPanel {
+  width: 98%;
+  margin: auto;
+}
+/* line 117, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent .subContent .panel:not(:last-child) {
+  margin-bottom: 10px;
+}
+/* line 122, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #Left {
+  width: 35%;
+  display: inline-block;
+}
+/* line 127, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #Right {
+  width: 64%;
+  float: right;
+  display: inline-block;
+}
+/* line 133, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #profilePanel {
+  height: 150px;
+  border: 1px solid black;
+}
+/* line 136, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #profilePanel #profileInfo {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 5px 0px;
+  color: #F0F0F0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 145, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #profilePanel > .subPanel {
+  height: 100%;
+  width: 100%;
+}
+/* line 153, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #skillPanel {
+  background-color: #303030;
+  display: block;
+}
+/* line 156, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #skillPanel > .subPanel {
+  display: inline-block;
+}
+/* line 158, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #skillPanel > .subPanel > .skillContent {
+  width: 95%;
+  margin: 5px auto;
+}
+/* line 165, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #DPanel {
+  border: 1px solid black;
+}
+/* line 167, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #DPanel .subPanel {
+  width: 98%;
+  margin: 5px auto;
+}
+/* line 173, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #socialPanel {
+  text-align: center;
+}
+/* line 174, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #socialPanel .fa {
+  font-size: 10.0vh !important;
+}
+/* line 180, C:/xampp/htdocs/profile/style/style.scss */
+body #mainContent #footer {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  color: #F0F0F0;
+}
+@media screen and (max-width: 840px) {
+  /* line 191, C:/xampp/htdocs/profile/style/style.scss */
   body #mainContent {
-    width: 80%;
-    margin: auto;
-    padding: 5px; }
-    body #mainContent .panel {
-      /*border:1px solid #000000;*/
-      position: relative; }
-      body #mainContent .panel .subPanel {
-        width: 98%;
-        margin: auto; }
-    body #mainContent .subContent .panel:not(:last-child) {
-      margin-bottom: 10px; }
-    body #mainContent #Left {
-      width: 35%;
-      display: inline-block; }
-    body #mainContent #Right {
-      width: 64%;
-      float: right;
-      display: inline-block; }
-    body #mainContent #profilePanel {
-      height: 150px;
-      border: 1px solid black; }
-      body #mainContent #profilePanel #profileInfo {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-        padding: 5px 0px;
-        color: #F0F0F0;
-        background-color: rgba(0, 0, 0, 0.6); }
-      body #mainContent #profilePanel > .subPanel {
-        height: 100%;
-        width: 100%; }
-    body #mainContent #skillPanel {
-      background-color: #303030;
-      display: block; }
-      body #mainContent #skillPanel > .subPanel {
-        display: inline-block; }
-        body #mainContent #skillPanel > .subPanel > .skillContent {
-          width: 95%;
-          margin: 5px auto; }
-    body #mainContent #DPanel {
-      border: 1px solid black; }
-      body #mainContent #DPanel .subPanel {
-        width: 98%;
-        margin: 5px auto; }
-    body #mainContent #socialPanel {
-      text-align: center; }
-      body #mainContent #socialPanel .fa {
-        font-size: 10.0vh !important; }
-    body #mainContent #footer {
-      display: block;
-      margin-top: 10px;
-      padding: 10px 0px;
-      background-color: rgba(0, 0, 0, 0.8);
-      text-align: center;
-      color: #F0F0F0; }
-  @media screen and (max-width: 840px) {
-    body #mainContent {
-      width: 100% !important;
-      padding: 0px !important; }
-    body .subContent, body #footer {
-      width: 100% !important; }
-    body #Right {
-      float: none !important; }
-      body #Right .panel:first-child {
-        margin-top: 10px; } }
-
-/*# sourceMappingURL=style.css.map */
+    width: 100% !important;
+    padding: 0px !important;
+  }
+  /* line 196, C:/xampp/htdocs/profile/style/style.scss */
+  body .subContent, body #footer {
+    width: 100% !important;
+  }
+  /* line 200, C:/xampp/htdocs/profile/style/style.scss */
+  body #Right {
+    float: none !important;
+  }
+  /* line 202, C:/xampp/htdocs/profile/style/style.scss */
+  body #Right .panel:first-child {
+    margin-top: 10px;
+  }
+}
