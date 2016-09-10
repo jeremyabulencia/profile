@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96a4340e-a396-40ca-aef3-129a716e8676" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/profile.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/style.scss;style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/06322f8c605d3f02039b0e4aa3d960b1af943bb1/_text-shadow.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/06322f8c605d3f02039b0e4aa3d960b1af943bb1/_text-shadow.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/1283a76f4bfbe9c87f0f2c0d002f3a94f809e104/_clearfix.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/1283a76f4bfbe9c87f0f2c0d002f3a94f809e104/_clearfix.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/1283a76f4bfbe9c87f0f2c0d002f3a94f809e104/_hacks.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/1283a76f4bfbe9c87f0f2c0d002f3a94f809e104/_hacks.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/1283a76f4bfbe9c87f0f2c0d002f3a94f809e104/_tag-cloud.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/1283a76f4bfbe9c87f0f2c0d002f3a94f809e104/_tag-cloud.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/348b9bbc8eed7c968043c006573da9496515d487/_hover-link.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/348b9bbc8eed7c968043c006573da9496515d487/_hover-link.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/348b9bbc8eed7c968043c006573da9496515d487/_link-colors.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/348b9bbc8eed7c968043c006573da9496515d487/_link-colors.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/348b9bbc8eed7c968043c006573da9496515d487/_unstyled-link.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/348b9bbc8eed7c968043c006573da9496515d487/_unstyled-link.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/365949550b979a3491b4019554bd3c618a6ae3b7/circle.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/365949550b979a3491b4019554bd3c618a6ae3b7/circle.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/3c7a54c585bb113d659145d806eb44b9e5a8199c/style.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/3c7a54c585bb113d659145d806eb44b9e5a8199c/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/3dcb4846ce8f3acc07e81016c9de3bedf66d5520/_alternating-rows-and-columns.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/3dcb4846ce8f3acc07e81016c9de3bedf66d5520/_alternating-rows-and-columns.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/3dcb4846ce8f3acc07e81016c9de3bedf66d5520/_borders.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/3dcb4846ce8f3acc07e81016c9de3bedf66d5520/_borders.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/3dcb4846ce8f3acc07e81016c9de3bedf66d5520/_scaffolding.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/3dcb4846ce8f3acc07e81016c9de3bedf66d5520/_scaffolding.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/539e267cd46e6f118cf67437b344bfe3bdc3a00c/_vertical_rhythm.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/539e267cd46e6f118cf67437b344bfe3bdc3a00c/_vertical_rhythm.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/58bd07bd1606c5126fdfb8ad8f067fbb436b2d7e/_support.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/58bd07bd1606c5126fdfb8ad8f067fbb436b2d7e/_support.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/58bd07bd1606c5126fdfb8ad8f067fbb436b2d7e/_utilities.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/58bd07bd1606c5126fdfb8ad8f067fbb436b2d7e/_utilities.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/640f4547b94003841de49fc2515fbd098f9c0413/_bullets.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/640f4547b94003841de49fc2515fbd098f9c0413/_bullets.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/640f4547b94003841de49fc2515fbd098f9c0413/_horizontal-list.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/640f4547b94003841de49fc2515fbd098f9c0413/_horizontal-list.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/640f4547b94003841de49fc2515fbd098f9c0413/_inline-block-list.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/640f4547b94003841de49fc2515fbd098f9c0413/_inline-block-list.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/640f4547b94003841de49fc2515fbd098f9c0413/_inline-list.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/640f4547b94003841de49fc2515fbd098f9c0413/_inline-list.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/8f6ea94c923c7f01a9f173421a75adc8a9e19de2/_contrast.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/8f6ea94c923c7f01a9f173421a75adc8a9e19de2/_contrast.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/982e9dbe52e4c313d1470f8c34d4a951854c3b77/style.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/982e9dbe52e4c313d1470f8c34d4a951854c3b77/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/9b04e7cd537489fcc472bdf9e1744a0e076a0663/_color.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/9b04e7cd537489fcc472bdf9e1744a0e076a0663/_color.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/b819dcfad281a5202e57aaa1519a28cf711f13fb/_utilities.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/b819dcfad281a5202e57aaa1519a28cf711f13fb/_utilities.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/.sass-cache/d9e497d31bc1803a6cbd4d06de4b48db7a8547fa/_compass.scssc" afterPath="$PROJECT_DIR$/style/.sass-cache/d9e497d31bc1803a6cbd4d06de4b48db7a8547fa/_compass.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css.map" afterPath="$PROJECT_DIR$/style/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.scss" afterPath="$PROJECT_DIR$/style/style.scss" />
     </list>
     <ignored path="profile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.358491">
-              <caret line="206" column="1" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.42264152">
+              <caret line="190" column="21" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -102,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7558348">
-              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+            <state vertical-scroll-proportion="-14.884615">
+              <caret line="215" column="34" selection-start-line="215" selection-start-column="34" selection-end-line="215" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -292,18 +257,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.scss">
+    <entry file="file://$PROJECT_DIR$/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.358491">
-          <caret line="206" column="1" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
+        <state vertical-scroll-proportion="-14.884615">
+          <caret line="215" column="34" selection-start-line="215" selection-start-column="34" selection-end-line="215" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.css">
+    <entry file="file://$PROJECT_DIR$/style/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7558348">
-          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.42264152">
+          <caret line="190" column="21" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
           <folding />
         </state>
       </provider>
